@@ -1,0 +1,6 @@
+# Ignore build folder for the dynamic library
+build/
+
+# Ignore Python bytecode cache
+__pycache__/
+*.pyc
