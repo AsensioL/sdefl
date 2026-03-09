@@ -1,14 +1,14 @@
 #ifndef SDEFL_H_INCLUDED
 #define SDEFL_H_INCLUDED
 
-#define SDEFL_MAX_OFF       (1 << 15)
+#define SDEFL_MAX_OFF       (1 << 8)
 #define SDEFL_WIN_SIZ       SDEFL_MAX_OFF
 #define SDEFL_WIN_MSK       (SDEFL_WIN_SIZ-1)
 
 #define SDEFL_MIN_MATCH     4
 #define SDEFL_MAX_MATCH     258
 
-#define SDEFL_HASH_BITS     19
+#define SDEFL_HASH_BITS     8
 #define SDEFL_HASH_SIZ      (1 << SDEFL_HASH_BITS)
 #define SDEFL_HASH_MSK      (SDEFL_HASH_SIZ-1)
 #define SDEFL_NIL           (-1)
